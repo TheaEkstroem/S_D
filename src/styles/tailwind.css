@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    /*Tobii mods*/
+    .tobii-zoom{
+        width: 100%;
+    }
+    .tobii__slide figure > img {
+        padding-bottom: 50px;
+    }
+
+    /* iframe {
+        max-width: 90%;
+        margin: auto;
+    } */
+
+    .tobii {
+        background-color: black;
+    }
+
+}
+
+
+    
+h1{
+    font-size:9em;
+}
+
+h2{
+    font-size:x-large;
+}
+
+h3{
+    font-size:large;
+}
+
+p{
+    font-size: medium;
+}
+
